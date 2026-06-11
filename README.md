@@ -36,91 +36,91 @@ Every plugin returns a single JSON object with the following structure.  The onl
 {
   "plugin": "roncalli",
   "company": {
-    "name": "SPIKETRAP INC.",
-    "address": "VIA DELLA MERCEDE, 12A",
-    "cap": "00187",
-    "city": "ROMA",
-    "cf": "96468650583",
-    "matricola_inps": "7073463019",
-    "pat_inail": "096044893"
+    "name": "...",
+    "address": "...",
+    "cap": "...",
+    "city": "...",
+    "cf": "...",
+    "matricola_inps": "...",
+    "pat_inail": "..."
   },
   "employee": {
-    "matricola": "7",
-    "cognome": "MASTROGIOVANNI",
-    "nome": "MICHELE",
-    "cf": "MSTMHL80E19D708X",
-    "data_nascita": "19/05/1980",
-    "qualifica": "2 - Impiegati",
-    "livello": "Q",
-    "mansione": "ING. INFORMATICO",
-    "data_assunzione": "28/01/2025"
+    "matricola": "...",
+    "cognome": "...",
+    "nome": "...",
+    "cf": "...",
+    "data_nascita": "...",
+    "qualifica": "...",
+    "livello": "...",
+    "mansione": "...",
+    "data_assunzione": "..."
   },
-  "periodo": { "mese": "Maggio", "anno": "2026" },
+  "periodo": { "mese": "...", "anno": "..." },
   "elementi_retribuzione": {
-    "minimo": "2.255,62",
-    "contingenza": "539,99",
-    "edr": "10,33",
-    "superminimo": "5.924,83",
-    "totale": "8.730,77"
+    "minimo": "...",
+    "contingenza": "...",
+    "edr": "...",
+    "superminimo": "...",
+    "totale": "..."
   },
   "items": [
     {
       "voce": "1",
       "descrizione": "RETRIBUZIONE ORDINARIA",
-      "quantita": "173,00",
-      "base": "50,46688",
-      "competenza": "8.730,77",
+      "quantita": "...",
+      "base": "...",
+      "competenza": "...",
       "trattenuta": ""
     },
     {
       "voce": "1705",
       "descrizione": "ASSENZE (giorni)",
-      "quantita": "1,00",
-      "base": "335,79885",
+      "quantita": "...",
+      "base": "...",
       "competenza": "",
-      "trattenuta": "335,80"
+      "trattenuta": "..."
     }
   ],
-  "totali": { "competenza": "9.066,57", "trattenuta": "335,80" },
+  "totali": { "competenza": "...", "trattenuta": "..." },
   "contributi": {
-    "ivs_imponibile": "8.731,00",
-    "ivs_contributi": "802,38",
-    "add_ivs_imponibile": "4.046,00",
-    "add_ivs_contributi": "40,46",
-    "totale": "842,84"
+    "ivs_imponibile": "...",
+    "ivs_contributi": "...",
+    "add_ivs_imponibile": "...",
+    "add_ivs_contributi": "...",
+    "totale": "..."
   },
   "irpef": {
-    "reddito": "7.887,93",
-    "imponibile": "7.887,93",
-    "lorda": "2.741,81",
+    "reddito": "...",
+    "imponibile": "...",
+    "lorda": "...",
     "detrazioni": "",
-    "totale_mese": "2.741,81"
+    "totale_mese": "..."
   },
   "addizionali": {
-    "reg_anno": "261,89",
-    "com_anno": "76,68",
+    "reg_anno": "...",
+    "com_anno": "...",
     "reg_ap": "",
-    "com_acc_saldo": "28,12",
-    "totale": "366,69"
+    "com_acc_saldo": "...",
+    "totale": "..."
   },
-  "ferie":       { "anni_prec": "2,68",  "maturati": "9,40",  "goduti": "1,00", "residui": "11,08" },
-  "ex_festivita":{ "anni_prec": "29,37", "maturati": "13,35", "goduti": "4,00", "residui": "38,72" },
-  "rol":         { "anni_prec": "58,05", "maturati": "27,75", "goduti": "",     "residui": "85,80" },
-  "netto": "4.779,00",
-  "iban": "IT68K0301503200000002509835",
-  "banca": "FINECO BANK SPA",
+  "ferie":       { "anni_prec": "...", "maturati": "...", "goduti": "...", "residui": "..." },
+  "ex_festivita":{ "anni_prec": "...", "maturati": "...", "goduti": "...", "residui": "..." },
+  "rol":         { "anni_prec": "...", "maturati": "...", "goduti": "",    "residui": "..." },
+  "netto": "...",
+  "iban": "...",
+  "banca": "...",
   "progressivi_anno": {
-    "imponibile_contributi": "43.199,00",
-    "contributi": "4.167,72",
-    "imponibile_inail": "43.199,00",
-    "imponibile_irpef": "59.051,26",
+    "imponibile_contributi": "...",
+    "contributi": "...",
+    "imponibile_inail": "...",
+    "imponibile_irpef": "...",
     "detrazioni": "",
-    "irpef_pagata": "22.142,04"
+    "irpef_pagata": "..."
   },
   "tfr": {
-    "fondo_in_azienda": "7.201,34",
-    "mese": "43,66",
-    "spettante": "10.330,83"
+    "fondo_in_azienda": "...",
+    "mese": "...",
+    "spettante": "..."
   }
 }
 ```
